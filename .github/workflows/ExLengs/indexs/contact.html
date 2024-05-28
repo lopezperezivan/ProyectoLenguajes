@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Iván López - Contacto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Iván López</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">Conóceme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5 fade-in">
+        <section class="text-center mb-4">
+            <h2>Contacto</h2>
+            <p>Email: lopezperezivan06@gmail.com</p>
+            <p>Teléfono: 647028922</p>
+            <p>Ubicación: Utrera, Sevilla, CP: 41710</p>
+        </section>
+
+        <section class="text-center">
+            <div class="container p-4 rounded" style="background-color: #f8f9fa;">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="surname" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="surname" placeholder="Tus apellidos">
+                    </div>
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Género</label>
+                        <select class="form-select" id="gender">
+                            <option value="male">Masculino</option>
+                            <option value="female">Femenino</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="reason" class="form-label">Motivo de Consulta</label>
+                        <select class="form-select" id="reason">
+                            <option value="general">General</option>
+                            <option value="support">Soporte</option>
+                            <option value="feedback">Retroalimentación</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="terms">
+                        <label class="form-check-label" for="terms">Acepto los términos y condiciones</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 Iván López Pérez</p>
+    </footer>
+</body>
+
+</html>
